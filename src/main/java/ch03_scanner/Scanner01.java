@@ -31,7 +31,7 @@ public class Scanner01 {
             sc.nextLine();은 메서드 호출과 관련있는 개념
 
             2. next(Int/Double/Bollean,...etc) vs nextLine
-                - nextLine()은 띄어쓰기를 허용합니다. enter를 기준으로 데이터가 변수에 저장됩니다., 즉\n이나 \0을 만날때까지
+                - nextLine()은 띄어쓰기를 허용합니다. enter를 기준으로 데이터가 변수에 저장됩니다., 즉\n을 만날때까지
                 - 나머지는 허용 안합니다.그래서 next에서 kim 2라 적으면 kim만 출력이 되었습니다.
          */
         //scanner에 사용할 안내문(프롬프트) 출력문
