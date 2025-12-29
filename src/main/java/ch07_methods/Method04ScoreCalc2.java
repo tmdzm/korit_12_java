@@ -7,7 +7,7 @@ public class Method04ScoreCalc2 {
     public static double calSum(){
         Scanner in = new Scanner(System.in);
         int Gwa , i , max;
-        double sum =0;
+        double sum =0;//지역변수 선언및 초기화
 
         System.out.print("몇 과목의 점수를 입력하시겠습니까? >>> ");
         max = in.nextInt();
@@ -25,7 +25,7 @@ public class Method04ScoreCalc2 {
             }
             sum += Gwa;
         }
-        System.out.println("총합은 "+sum+"이며, 평균은 "+div(sum,i)+"입니다.");;
+        System.out.println("총합은 "+sum+"이며, 평균은 "+div(sum,i)+"입니다.");
         return sum;
     }
 
@@ -43,3 +43,9 @@ public class Method04ScoreCalc2 {
         calSum();
     }
 }
+
+
+// 이번 단계에서는 1. 합을 구하는 메서드 / 2. 평균을 구하는 메서드를 작성하고
+// 평균을 구하는 메서드 내에서 합을 구하는 메서드를 호출하는 방식으로 작성할겁니다.
+
+// 그리고 메서드 호출 영역에는 '평균을 구하는 메서드'만 호출할겁니다.

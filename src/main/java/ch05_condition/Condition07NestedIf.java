@@ -17,7 +17,7 @@ import java.util.Scanner;
 
     이런식
  */
-public class Condtion07NestedIf {
+public class Condition07NestedIf {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String grade;

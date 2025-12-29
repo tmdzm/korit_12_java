@@ -11,7 +11,7 @@ import java.util.Scanner;
              default :
                 실행문;
      */
-public class Condtion11Switch {
+public class Condition11Switch {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int choice;
