@@ -6,5 +6,6 @@ public class ConstructerMain {
         Constructer constructer2 = new Constructer();
 
         System.out.println(constructer2.num);
+        //
     }
 }
