@@ -24,7 +24,7 @@ public class Array11 {
 
         Arrays.sort(numbers);
         System.out.println(Arrays.toString(numbers));
-        Arrays.sort(numbers, Comparator.reverseOrder());
+        Arrays.sort(numbers, Comparator.reverseOrder());//역순
         System.out.println(Arrays.toString(numbers));
     }
 
