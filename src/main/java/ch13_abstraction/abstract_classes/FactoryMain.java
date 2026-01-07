@@ -19,7 +19,6 @@ public class FactoryMain {
         PhoneFactory phoneFactory1 = new PhoneFactory();
         phoneFactory1.setName("애플 스마트폰 공장");
 
-
         phoneFactory1.produce("아이폰 에어2");
         phoneFactory1.manage();
 
@@ -32,6 +31,20 @@ public class FactoryMain {
             부모 클래스와 자식 클래스의 메서드 호출 결과가 다르게 굴러 갈 경우에만 오버라이드가 요구되고
             동일한 경우에는 그냥 부모 클래스의 메서드를 호출
          */
+
+        TabletFactory tabletFactory1 = new TabletFactory();
+        TabletFactory tabletFactory2 = new TabletFactory();
+
+        tabletFactory1.setName("애플 태블릿 공장");
+        tabletFactory1.setName("구글 태블릿 공장");
+        System.out.println("현재 이름은 "+tabletFactory1.getName()+"으로 수정되었습니다.");
+        tabletFactory1.produce("구글 태블릿");
+        tabletFactory1.manage();
+        tabletFactory1.upgrade("구글 태블릿 10인치 2세대");
+
+        tabletFactory2.setName("삼성 태블릿 공장");
+        tabletFactory2.showInfo();
+
     }
 }
 /*

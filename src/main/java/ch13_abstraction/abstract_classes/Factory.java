@@ -4,7 +4,7 @@ public abstract class Factory {
     //field 선언
     private String name;
 
-    public abstract void produce(String name);
+    public abstract void produce(String model);
     public abstract void manage();
 
     //Getter / setter 정의
