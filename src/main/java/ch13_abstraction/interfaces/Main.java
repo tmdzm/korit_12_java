@@ -42,5 +42,27 @@ public class Main {
         remocon.onUpVolumeUpButton();
 
         remocon.onPressedPowerButton();
+
+        //
+
+        AirConditionerController acon = new AirConditionerController(
+                new PowerButton(),
+                new tempDownButton(),
+                new tempUpButton(),
+                new ModeChange()
+        );
+
+        acon.pressPower();
+        acon.pressDown();
+        acon.pressOnDown();
+        acon.pressUp();
+        acon.pressOnUp();
+        acon.pressMode();
+        acon.pressMode();
+        acon.pressMode();
+
+        acon.pressPower();
+
+
     }
 }
