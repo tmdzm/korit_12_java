@@ -35,6 +35,8 @@ public class CentralControlMain {
         centralControl1.powerOff();
 
         centralControl1.deleteDevice("Computer");
+
+        centralControl1.deleteDevice();
         centralControl1.showInfo();
         centralControl1.performSpecificMethod();
     }
