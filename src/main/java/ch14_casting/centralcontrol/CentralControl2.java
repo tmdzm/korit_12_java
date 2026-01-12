@@ -3,7 +3,6 @@ package ch14_casting.centralcontrol;
 public class CentralControl2 {
     private Power[] deviceArray ;
 
-
     public CentralControl2(Power[] powers) {
         deviceArray = powers;
     }
